@@ -80,7 +80,7 @@ Example HTML-->
 
       <router-link to="/" class="navbar-item" active-class="is-current" exact>Home</router-link>
       <router-link to="/about" class="navbar-item" active-class="is-current">About</router-link>
-      <router-link to="/game" class="navbar-item" active-class="is-current">Game</router-link>
+     <!-- <router-link to="/game" class="navbar-item" active-class="is-current">Game</router-link>-->
 
 
       <div class="navbar-item has-dropdown is-hoverable">

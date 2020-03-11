@@ -6,7 +6,7 @@ import Login from '../views/Login.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/',name: 'Home',component: Home },
+  { path: '/',name: 'Home',component: Home, meta: { isSecret: true } },
   { path: '/',name: 'Login',component: Login },
 
 
@@ -24,5 +24,10 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
+
+router.beforeEach( (to, from, next) => {
+  if( to.meta.isSecret && !CurrentUser) next('/login');
+  else next();
+});
 
 export default router
