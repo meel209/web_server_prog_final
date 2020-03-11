@@ -2,8 +2,7 @@
   
   <form class="container" @submit.prevent="login">
       {{error}}
-
-
+      
       <h1><b> Please Login </b></h1>
 
       <div class="field">
