@@ -1,6 +1,11 @@
 <template>
+  
   <form class="container" @submit.prevent="login">
       {{error}}
+
+
+      <h1><b> Please Login </b></h1>
+
       <div class="field">
         <p class="control has-icons-left has-icons-right">
             <input class="input" type="email" placeholder="Email" v-model="email" >
@@ -12,6 +17,8 @@
             </span>
         </p>
         </div>
+
+
         <div class="field">
         <p class="control has-icons-left">
             <input class="input" type="password" placeholder="Password" v-model="password">
@@ -27,6 +34,8 @@
             </button>
         </p>
         </div>
+
+
   </form>
 </template>
 

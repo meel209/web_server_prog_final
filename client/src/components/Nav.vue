@@ -78,8 +78,10 @@ Example HTML-->
     <div class="navbar-start">
 
 
-      <router-link to="/home" class="navbar-item" active-class="is-current" exact>Home</router-link>
-      <router-link to="/about" class="navbar-item" active-class="is-current">About</router-link>
+      <router-link to="/" class="navbar-item" active-class="is-current" exact>Home</router-link>
+
+      <!--<router-link to="/about" class="navbar-item" active-class="is-current">About</router-link>
+      -->
       <router-link to="/fitness" class="navbar-item" active-class="is-current">Fitness Board</router-link>
 
 
@@ -90,7 +92,7 @@ Example HTML-->
 
         <div class="navbar-dropdown">
           <a class="navbar-item">
-            About
+            <router-link to ='/about' exact > About</router-link>
           </a>
           <a class="navbar-item">
             Jobs

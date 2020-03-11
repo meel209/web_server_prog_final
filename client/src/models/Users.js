@@ -2,8 +2,8 @@
 /* R"J
 */
 const Users = [
-    { Name: 'Rumeel', Password: 'red', Email: 'jessamyr1@newpaltz.edu' },
-    { Name: 'Jack', Password: 'black', Email: 'blackj@newpaltz.edu' },
+    { Name: 'Rumeel', Password: 'red', Email: 'j@new.edu', Type: 'Admin' },
+    { Name: 'Jack', Password: 'black', Email: 'blackj@newpaltz.edu', Type: 'User'},
     
 ];
 
