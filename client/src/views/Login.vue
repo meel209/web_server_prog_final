@@ -32,6 +32,7 @@
 
 <script>
 import { Login } from "../models/Users";
+
 export default {
     data(){
         return {
@@ -44,7 +45,7 @@ export default {
         login(){
             try {
                 Login(this.email, this.password);
-                this.$router.push('/game');
+                this.$router.push('/home');
             } catch (error) {
                 this.error = error;
             }
@@ -54,4 +55,5 @@ export default {
 </script>
 
 <style>
+
 </style>

@@ -78,9 +78,9 @@ Example HTML-->
     <div class="navbar-start">
 
 
-      <router-link to="/" class="navbar-item" active-class="is-current" exact>Home</router-link>
+      <router-link to="/home" class="navbar-item" active-class="is-current" exact>Home</router-link>
       <router-link to="/about" class="navbar-item" active-class="is-current">About</router-link>
-     <!-- <router-link to="/game" class="navbar-item" active-class="is-current">Game</router-link>-->
+      <router-link to="/fitness" class="navbar-item" active-class="is-current">Fitness Board</router-link>
 
 
       <div class="navbar-item has-dropdown is-hoverable">
