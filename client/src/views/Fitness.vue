@@ -16,7 +16,7 @@
             {{player.Name}} {{player.Score}}
           </li>-->
           <li v-for="ex in Exercises" :key="ex.Name">
-            {{ex.Name}}
+            {{ex.Name}} <input class="input is-rounded" type="text" placeholder="Rounded input">
           </li>
 
         </ul>
