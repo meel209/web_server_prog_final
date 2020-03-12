@@ -30,9 +30,12 @@
 <script>
 //import { Players, PictureDeck, CurrentPicture, Init } from "../models/Fitness";
 import { Exercises, Init } from "../models/Fitness";
-Init();
+
 export default {
   name: 'Home',
+    created(){
+    Init();
+  },
   data:()=>({
     Exercises
     //Player,
