@@ -34,6 +34,10 @@ export const Exercises = [
     { Name: 'Set Ups'}
 ]
 
+export function add(name){
+    Exercises.push({ Name: name})
+}
+
 export function Init(){
    /* Players.push( { Name: CurrentUser.Name, Score: 0, isDealer: true });
     MyCards.push(CaptionsDeck[0]);
