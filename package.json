@@ -1,0 +1,23 @@
+{
+  "name": "web_server_prog_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon --watch ./server server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meel209/web_server_prog_final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meel209/web_server_prog_final/issues"
+  },
+  "homepage": "https://github.com/meel209/web_server_prog_final#readme"
+}

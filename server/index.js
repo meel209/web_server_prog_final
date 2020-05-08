@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 //const gameController = require('./controllers/game');
-const usersController = require('./controllers/users');
+//const usersController = require('./controllers/users');
 
 
 
@@ -27,9 +27,9 @@ app
     .use(express.json())
     .use(express.urlencoded({ extended: true }))
     .use(express.static( __dirname + '/../client/dist'))
-    .get('/', (req, res) => res.send('This class is awesome!') )
+    .get('/', (req, res) => res.send('') )
     //.use('/game', gameController)
-    .use('/users', usersController)
+    //.use('/users', usersController)
 
     .use((req, res) => {
         const homePath = path.join( __dirname , '/../client/dist/index.html');
